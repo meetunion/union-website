@@ -2,13 +2,23 @@
  * Custom components for tailwind to use
  */
 
-  /**
- * Special colours
+ /**
+ * Typography
  */
 
- .gradient {
-  background-image: linear-gradient(-90deg, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
- }
+.regular {
+  @apply nunito-regular text-base
+}
+
+.
+
+.header__extra {
+  @apply nunito-extra text-7xl text-center leading-tight
+}
+
+.header__extra--caption {
+  @apply nunito-regular text-lg text-center leading-snug
+}
 
  /**
  * Buttons
