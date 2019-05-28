@@ -6,7 +6,7 @@
       <img class="mt-16 px-6" src="https://previews.dropbox.com/p/thumb/AAe77gIHR9NUJrzM7bnwAtySexmfhgKKdRXARh2M7Ilumpe34oQzeDUH9Mm_APLlJOHh7O49o2fpVY_-RVFKKvNvwWz3Vkj67497oSsMdZSVESxm1LZ-bSCHwK5yXdNnTrRgYWbjtA_qHaCRykBSjePvxBa25g5wJa4UdfOPtkOGAeSphxfxKB2LTS7AVW48xHdGD_UZEfCxWO0eT40MOksdqkGy3uH3JzKuU1XLsDk6CtlO8h-mHHcDltpJLfY6nyK327NCYt8x7W2Xxplsgjh31VqxmHa50DRsTS1RoIsBKuLSHG9rtO_KzvAtMuBiDS0nqQEy9Ey-1ekZPOxh8E0Xi06OoNUzW-7-L5ypWZzhlQ/p.png" alt="" />
     </div>
     <div class="mt-6 flex flex-row">
-      <div class="px-4 flex flex-row flex-wrap items-start content-between self-center  justify-between">
+      <div class="px-4 flex flex-row flex-wrap items-center content-between self-center  justify-between">
         <Feature v-bind:featuresItems="featuresItems" />
       </div>
     </div>
@@ -43,7 +43,7 @@ export default {
         {
           "featureId": "4",
           "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
-          "featureTitle": "Get paid with crypto",
+          "featureTitle": "Full pay with crypto",
           "featureDescription": "No payment provider, no bundled payouts and near zero transaction costs."
         },
         {

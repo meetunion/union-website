@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-row flex-wrap justify-center">
     <div class="mt-24 inline-flex items-start max-w-xs text-left"
       v-for="item in featuresItems"
       :key="item.featuresId"
@@ -15,8 +15,7 @@
 
 <script>
 export default {
-  name: 'Feature',
-  props: {
+  name: 'Feature',  props: {
     featuresItems: {
       type: Array
     }
