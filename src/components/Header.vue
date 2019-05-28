@@ -1,34 +1,35 @@
 <template>
-  <div class="my-10 flex justify-between">
-    <div class="inline-flex flex-row flex-no-wrap items-center">
-      <div class="w-1/2 px-12 flex flex-col items-start">
-        <h1 class="text-3xl">{{ title }}</h1>
-        <h1 class="mt-6 text-4xl font-bold">Your community, your rules!</h1>
-        <div class="mt-6 text-xl leading-normal">{{ description }}</div>
-        <div class="mt-12 flex flex-col items-start content-start self-stretch">
-          <Button buttonCopy="Create your Union" />
-          <div class="mt-6"></div>
-          <Button buttonCopy="Support this project" />
-        </div>
+  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+      <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+    </div>
+    <div class="block lg:hidden">
+      <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div class="text-sm lg:flex-grow">
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Docs
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+          Examples
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+          Blog
+        </a>
       </div>
-      <div class="w-1/2 max-w-xl px-12">
-        <!-- <img :src="coverImageURL" alt="" /> -->
-        <img src="https://previews.dropbox.com/p/thumb/AAfjwRYrsrT5HfvfHthL7m7s8OlTP-AMRbTLkj6eDWLGBAhTdEJubNr0YCmAQkDVnL9BbFGJSJYns28t04h_wvriZKtTenbmXLLUUt9JCGAN16-nwfLfIaARYQK8sch0ckVBCzAJbEzQGl1jducx11L7nmjgh64VB_ZTudrtEMijb4rF43pQrgAc3kpRQN5MZabjgBVwmZzLhfkfXh8-Y2CLBQmJqDT98kyGM4WNbhqopaK6HkT7_bE-IBVn0b2vXjyqB7KK1lTcE7sr1XgISp5iXYgcG64xQ9oRJJ_2M7MXM9k-PAo0Eu23n7lcvO98nzhM-j9kVV-WlWnbKjGYvM7d/p.png" alt="" />
+      <div>
+        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
-import Button from '@/components/Button'
-
 export default {
   name: 'Header',
-  components: { Button },
-  props: {
-    title: String,
-    description: String,
-    coverImageURL: String
-  }
 }
 </script>

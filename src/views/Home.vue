@@ -1,8 +1,9 @@
 <template>
   <div class="bg-white">
     <div class="container mx-auto px-8 lg:px-4">
-      <div class="flex min-h-screen">
-        <Header
+      <Header />
+      <div class="flex">
+        <Intro
           :title="title"
           :description="description"
           :profilePictureURL="profilePictureURL"
@@ -38,6 +39,7 @@
 <script>
 import Api from '../services/ApiManager'
 import Button from '@/components/Button'
+import Intro from '@/components/Intro'
 import Header from '@/components/Header'
 import Section from '@/components/Section'
 import Faq from '@/components/Faq'
@@ -46,7 +48,7 @@ import qrcode from '@chenfengyuan/vue-qrcode'
 
 export default {
   name: 'Home',
-  components: { Header, Button, Section, Footer, Faq, qrcode },
+  components: { Intro, Header, Button, Section, Footer, Faq, qrcode },
   data: () => {
     return {
       title: '',
