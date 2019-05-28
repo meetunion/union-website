@@ -17,9 +17,15 @@
       <Section />
       <div class="mt-64 mb-64 flex flex-col items-center justify-center content-center">
         <h1 class="mb-12 font-medium text-4xl">Start your Union today!</h1>
-        <Button buttonCopy="Get started" />
+        <Button buttonCopy="Create your Union" />
       </div>
       <Faq />
+      <div class="mt-64 mb-64 flex flex-col items-center justify-center content-center">
+        <h1 class="mb-12 font-medium text-4xl">Shape the future of Union!</h1>
+        <Button buttonCopy="Support this project" />
+        <div class="mt-6"></div>
+        <Button buttonCopy="Contribute on Github" />
+      </div>
     </div>
     <div class="bg-indigo-400 border-purple-light border-t-2">
       <div class="container mx-auto px-8 lg:px-4">
