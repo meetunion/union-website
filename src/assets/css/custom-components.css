@@ -1,0 +1,27 @@
+/**
+ * Custom components for tailwind to use
+ */
+
+ /**
+ * Buttons
+ */
+
+.btn {
+  @apply w-56 py-3 px-4 rounded-full bg-blue-600 no-underline cursor-pointer;
+}
+
+.btn--alt {
+  @apply w-56 py-3 px-4 rounded-full bg-white border-black border-r border-b border-l border-black border-t no-underline cursor-pointer;
+}
+
+.btn__copy {
+  @apply text-white font-medium text-center;
+}
+
+.btn__copy--alt {
+  @apply text-black text-center;
+}
+
+ /**
+ * Cards
+ */

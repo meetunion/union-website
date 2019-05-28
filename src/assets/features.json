@@ -1,0 +1,16 @@
+{
+  "data": [
+      {
+          "featureId": "1",
+          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureTitle": "Simple Setup",
+          "featureDescription": "One two three"
+      },
+      {
+        "featureId": "2",
+        "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+        "featureTitle": "test",
+        "featureDescription": "test"
+      }
+    ]
+}
