@@ -19,11 +19,11 @@
 }
 
 .header__extra {
-  @apply nunito-extra text-7xl text-center leading-tight
+  @apply nunito-extra text-7xl text-center leading-tight purple-header
 }
 
 .header__extra--caption {
-  @apply nunito-regular text-lg text-center leading-snug
+  @apply nunito-bold text-3xl text-center leading-snug gray-caption
 }
 
  /**
