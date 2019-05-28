@@ -43,7 +43,7 @@
 }
 
 .btn__copy {
-  @apply text-white font-medium text-center;
+  @apply text-white bold text-center;
 }
 
 .btn__copy--alt {
