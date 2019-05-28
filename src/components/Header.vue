@@ -2,10 +2,13 @@
   <div class="my-10 flex justify-between">
     <div class="inline-flex flex-row flex-no-wrap items-center">
       <div class="w-1/2 px-12 flex flex-col items-start">
-        <h1 class="text-5xl">{{ title }}</h1>
+        <h1 class="text-3xl">{{ title }}</h1>
+        <h1 class="mt-6 text-4xl font-bold">Your community, your rules!</h1>
         <div class="mt-6 text-xl leading-normal">{{ description }}</div>
         <div class="mt-12 flex flex-col items-start content-start self-stretch">
           <Button buttonCopy="Create your Union" />
+          <div class="mt-6"></div>
+          <Button buttonCopy="Support this project" />
         </div>
       </div>
       <div class="w-1/2 max-w-xl px-12">
