@@ -16,6 +16,13 @@
 <script>
 import Feature from '@/components/Feature'
 
+import Cog from "../assets/svg/features/cog.svg";
+import Couple from "../assets/svg/features/couple-man-woman.svg";
+import Megaphone from "../assets/svg/features/megaphone-1.svg";
+import Programming from "../assets/svg/features/programming-flag.svg";
+import Magician from "../assets/svg/features/show-hat-magician-1.svg";
+import Dollar from "../assets/svg/features/wireless-payment-credit-card-dollar.svg";
+
 export default {
   name: 'Section',
   components: { Feature },
@@ -24,37 +31,37 @@ export default {
       featuresItems: [
         {
           "featureId": "1",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Cog,
           "featureTitle": "Simple setup",
           "featureDescription": "Get started quickly, so you can go back to focusing on creating instead."
         },
         {
           "featureId": "2",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Couple,
           "featureTitle": "Reward your fans",
           "featureDescription": "Give your fans the exclusive content and experiences that they crave for."
         },
         {
           "featureId": "3",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Megaphone,
           "featureTitle": "No censorship barriers",
           "featureDescription": "Make any of your content available to anyone. You hold the power in the end."
         },
         {
           "featureId": "4",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Dollar,
           "featureTitle": "Full pay with crypto",
           "featureDescription": "No payment provider, no bundled payouts and near zero transaction costs."
         },
         {
           "featureId": "5",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Magician,
           "featureTitle": "Customizable plugins",
           "featureDescription": "An easy way for us to help you transform ou platform in whatever you need."
         },
                 {
           "featureId": "6",
-          "featureIcon": "https://image.flaticon.com/icons/png/512/33/33447.png",
+          "featureIcon": Programming,
           "featureTitle": "All open source",
           "featureDescription": "Peace of mind, transparency and a platform that anyone can contribute to."
         },
