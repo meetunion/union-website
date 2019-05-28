@@ -14,6 +14,10 @@
   @apply nunito-semi text-base
 }
 
+.bold {
+  @apply nunito-bold text-base
+}
+
 .extra {
   @apply nunito-extra text-base
 }
@@ -23,7 +27,7 @@
 }
 
 .header__extra--caption {
-  @apply nunito-bold text-3xl text-center leading-snug gray-caption
+  @apply nunito-bold text-3xl text-center leading-snug gray-caption opacity-75
 }
 
  /**
