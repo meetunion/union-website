@@ -1,28 +1,30 @@
 <template>
-  <div class="container mx-auto px-8 lg:px-4">
-    <div class="flex min-h-screen">
-      <Header
-        :title="title"
-        :description="description"
-        :profilePictureURL="profilePictureURL"
-        :coverImageURL="coverImageURL"
-      />
-    </div>
+  <div class="bg-white">
+    <div class="container mx-auto px-8 lg:px-4">
+      <div class="flex min-h-screen">
+        <Header
+          :title="title"
+          :description="description"
+          :profilePictureURL="profilePictureURL"
+          :coverImageURL="coverImageURL"
+        />
+      </div>
     <qrcode
       :value="ethAddress"
       :options="{ width: 200 }"
       v-if="ethAddress"
     ></qrcode>
-    <Section />
-    <div class="mt-32 flex flex-col items-center justify-center content-center">
-      <h1 class="mb-6 font-medium text-3xl">Start your Union today!</h1>
-      <Button buttonCopy="Get started" />
+      <Section />
+      <div class="mt-64 mb-64 flex flex-col items-center justify-center content-center">
+        <h1 class="mb-12 font-medium text-4xl">Start your Union today!</h1>
+        <Button buttonCopy="Get started" />
+      </div>
+      <Faq />
     </div>
-    <Faq />
-    <Footer />
-    <div>
-      <p>{{ discordUrl }}</p>
-      <p>{{ twitterUrl }}</p>
+    <div class="bg-indigo-400 border-purple-light border-t-2">
+      <div class="container mx-auto px-8 lg:px-4">
+        <Footer />
+      </div>
     </div>
   </div>
 </template>
