@@ -4,8 +4,8 @@
     <p class="mt-8 header__extra--caption--small">Create a simple community subscriptions platform with Union.</p>
     <div class="mt-32 inline-flex flex-row flex-no-wrap items-center">
       <div class="w-1/2 px-12 flex flex-col items-start">
-        <h1 class="text-3xl">{{ title }}</h1>
-        <div class="mt-6 body__intro">{{ description }}</div>
+        <h1 class="header__intro">{{ title }}</h1>
+        <div class="mt-6 pr-6 body__intro">{{ description }}</div>
         <div class="mt-12 flex flex-col items-start content-start self-stretch">
           <Button buttonCopy="Create your Union" />
           <div class="mt-6"></div>

@@ -23,11 +23,11 @@
 }
 
 .header__intro {
-  @apply nunito-extra text-4xl text-left leading-tight purple-header
+  @apply nunito-extra text-3xl text-left leading-tight purple-header
 }
 
 .body__intro {
-  @apply nunito-regular text-xl text-left leading-snug gray-caption
+  @apply nunito-regular text-2xl text-left leading-snug gray-caption
 }
 
 .header__extra {
